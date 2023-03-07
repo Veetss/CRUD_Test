@@ -1,0 +1,5 @@
+co\develhope\crud\repositories\StudentRepository.class
+co\develhope\crud\CrudApplication.class
+co\develhope\crud\services\StudentService.class
+co\develhope\crud\entities\Student.class
+co\develhope\crud\controllers\StudentController.class

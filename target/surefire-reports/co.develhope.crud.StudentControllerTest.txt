@@ -1,0 +1,45 @@
+-------------------------------------------------------------------------------
+Test set: co.develhope.crud.StudentControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 7.096 s <<< FAILURE! - in co.develhope.crud.StudentControllerTest
+deleteStudent  Time elapsed: 0.187 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at co.develhope.crud.StudentControllerTest.createAStudentRequest(StudentControllerTest.java:95)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:71)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:67)
+	at co.develhope.crud.StudentControllerTest.deleteStudent(StudentControllerTest.java:152)
+
+readStudentsList  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at co.develhope.crud.StudentControllerTest.createAStudentRequest(StudentControllerTest.java:95)
+	at co.develhope.crud.StudentControllerTest.createAStudentRequest(StudentControllerTest.java:85)
+	at co.develhope.crud.StudentControllerTest.readStudentsList(StudentControllerTest.java:106)
+
+activateStudent  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at co.develhope.crud.StudentControllerTest.createAStudentRequest(StudentControllerTest.java:95)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:71)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:67)
+	at co.develhope.crud.StudentControllerTest.activateStudent(StudentControllerTest.java:166)
+
+updateStudent  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at co.develhope.crud.StudentControllerTest.createAStudentRequest(StudentControllerTest.java:95)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:71)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:67)
+	at co.develhope.crud.StudentControllerTest.updateStudent(StudentControllerTest.java:127)
+
+createAStudentTest  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at co.develhope.crud.StudentControllerTest.createAStudentRequest(StudentControllerTest.java:95)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:71)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:67)
+	at co.develhope.crud.StudentControllerTest.createAStudentTest(StudentControllerTest.java:101)
+
+readSingleStudent  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at co.develhope.crud.StudentControllerTest.createAStudentRequest(StudentControllerTest.java:95)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:71)
+	at co.develhope.crud.StudentControllerTest.createAStudent(StudentControllerTest.java:67)
+	at co.develhope.crud.StudentControllerTest.readSingleStudent(StudentControllerTest.java:120)
+
